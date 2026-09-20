@@ -10,7 +10,7 @@ fn main() {
 
 	println!("Enter the employee's age:");
 	let mut age_input = String::new();
-	io::stdin().read_line(&mut age_input).expect("Failed to read input")
+	io::stdin().read_line(&mut age_input).expect("Failed to read input");
 	let age: u32 = age_input.trim().parse().expect("Failed to input");
 
 	//determine incentive based on criteria
